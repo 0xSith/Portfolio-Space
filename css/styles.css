@@ -1,0 +1,162 @@
+/*Master Styles*/
+html {
+  height: 100%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  margin: 0;
+  font-family:'Barlow',sans-serif;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 9.375rem;
+  margin: 0;
+  font-weight: normal;
+}
+h2{
+  font-family: 'Bellefair',serif;
+  font-size: 6.25rem;
+  font-weight: normal;
+  margin: 0;
+}
+h3{
+  font-family: 'Bellefair',serif;
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.75rem;
+  font-weight: normal;
+  letter-spacing: .3rem;
+  margin: 0;
+  color: #D0D6F9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Desktop Home Styles*/
+
+p {
+  padding-right: 8.8%;
+}
+.Home-Desktop{
+  background-image: url('/Users/nates/Desktop/Portfolio-Space/assets/home/background-home-desktop.jpg');
+}
+.Nav-Text {
+  display: inline-block;
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 0;
+  margin-right: 3rem;
+  padding: 0;
+  font-size: 1rem;
+  letter-spacing: .16875rem;
+  height: 3.5625rem;
+}
+.Nav-Text:hover{
+border-bottom: solid 3px rgba(255,255,255,.5);
+}
+.Nav-Text:active{
+  border-bottom:solid 3px #FFFFFF;
+}
+.Home-Top {
+  position: absolute;
+  width: 96.2%;
+  height: 10.7%;
+  margin-left: 3.8%;
+  margin-top: 2.8%;
+}
+
+#Subheading-Left {
+  color: #D0D6F9;
+  padding-bottom: 5.3%;
+}
+
+#Home-Bodytxt {
+  color: #D0D6F9;
+  padding-top: 5.3%;
+  padding-right: 0;
+  line-height: 200%;
+}
+
+#Home-Logo {
+  position: absolute;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+}
+
+.Home-Line {
+  position: absolute;
+  width: 34.15%;
+  height: 1%;
+  margin: 0 57.8% 0 8.1%;
+  top: 50%;
+  bottom: 50%;
+  opacity: .25;
+  border-color: #FFFFFF;
+  border-style: none;
+  border-top-style: solid;
+}
+
+.Home-Nav-Parent {
+  position: absolute;
+  width: 59.9%;
+  height: 100%;
+  margin-left: 40.1%;
+  backdrop-filter: blur(.6rem) saturate(125%);
+}
+
+.Home-Nav-Title {
+  position: absolute;
+  width: 1000%;
+  height: 19.8%;
+  margin: auto 19.8% auto 14.8%;
+  top: 50%;
+  bottom: 50%;
+}
+
+.Home-Left {
+  position: absolute;
+  width: 28.125rem;
+  height: 42.4%;
+  margin: 26.9% 57.3% 9.1% 11.5%;
+}
+
+.Home-Right {
+  position: absolute;
+  width: 17.125rem;
+  height: 17.125rem;
+  margin:34.4% 11.5% 9.1% 69.5%;
+}
+
+.Home-Explore {
+  padding-top: 7.41rem;
+  padding-bottom: 7.41rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #0B0D17;
+}
+
+.Home-Explore:hover {
+  box-shadow: 0 0 0 5.5rem rgba(255, 255, 255, .1);
+  transition: .5s;
+  text-decoration: none;
+}
