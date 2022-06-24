@@ -58,7 +58,7 @@ p {
   padding-right: 8.8%;
 }
 .Home-Desktop{
-  background-image: url('assets/home/background-home-desktop.jpg');
+  background-image: url('../assets/home/background-home-desktop.jpg');
 }
 .Nav-Text {
   display: inline-block;
