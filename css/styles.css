@@ -1,7 +1,4 @@
 /*Master Styles*/
-html {
-  height: 100%;
-}
 
 body {
   background-repeat: no-repeat;
@@ -10,6 +7,8 @@ body {
   margin: 0;
   font-family:'Barlow',sans-serif;
   font-size: 1.125rem;
+  background-image: url('../assets/home/background-home-desktop.jpg');
+  height: 100vh;
 }
 
 h1 {
@@ -57,9 +56,6 @@ a {
 p {
   padding-right: 8.8%;
 }
-.Home-Desktop{
-  background-image: url('../assets/home/background-home-desktop.jpg');
-}
 .Nav-Text {
   display: inline-block;
   font-family: 'Barlow Condensed', sans-serif;
@@ -68,7 +64,7 @@ p {
   padding: 0;
   font-size: 1rem;
   letter-spacing: .16875rem;
-  height: 3.5625rem;
+  height: 270%;
 }
 .Nav-Text:hover{
 border-bottom: solid 3px rgba(255,255,255,.5);
@@ -125,9 +121,8 @@ border-bottom: solid 3px rgba(255,255,255,.5);
 
 .Home-Nav-Title {
   position: absolute;
-  width: 1000%;
   height: 19.8%;
-  margin: auto 19.8% auto 14.8%;
+  margin: auto 0 auto 14.8%;
   top: 50%;
   bottom: 50%;
 }
@@ -136,14 +131,14 @@ border-bottom: solid 3px rgba(255,255,255,.5);
   position: absolute;
   width: 28.125rem;
   height: 42.4%;
-  margin: 26.9% 57.3% 9.1% 11.5%;
+  margin: 26.9% 57.3% auto 11.5%;
 }
 
 .Home-Right {
   position: absolute;
   width: 17.125rem;
   height: 17.125rem;
-  margin:34.4% 11.5% 9.1% 69.5%;
+  margin:34.4% 11.5% auto 69.5%;
 }
 
 .Home-Explore {
@@ -159,4 +154,44 @@ border-bottom: solid 3px rgba(255,255,255,.5);
   box-shadow: 0 0 0 5.5rem rgba(255, 255, 255, .1);
   transition: .5s;
   text-decoration: none;
+}
+
+
+/* Responsive formats for Desktop */
+
+@media (min-width:768px) and (max-height:768px) {
+  h1{
+    font-size:8rem;
+  }
+  h4{
+    font-size: 1.7rem;
+  }
+  h5{
+    font-size: 1.5rem;
+  }
+  .Home-Left{
+    margin-top: 25%;
+  }
+  #Home-Bodytxt{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .Home-Right{
+    margin-top:31%;
+    width:250px;
+  }
+  .Home-Explore:hover{
+    box-shadow: 0 0 0 4rem rgba(255, 255, 255, 0.1);
+  }
+}
+@media (max-height:950px) and (min-height:768px) {
+  .Home-Right{
+    margin-top:28%;
+  }
+  .Home-Left{
+    margin-top:25%;
+  }
+  #Home-Bodytxt{
+    margin-top: 0;
+  }
 }
